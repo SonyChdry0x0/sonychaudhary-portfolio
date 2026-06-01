@@ -129,7 +129,7 @@ export default function Skills() {
       className="py-24 px-6 md:px-16 bg-white dark:bg-gray-950"
     >
       <div className="max-w-6xl mx-auto">
-        <span className="text-orange-500 uppercase tracking-widest text-xl font-semibold">
+        <span className="text-blue-500 uppercase tracking-widest text-xl font-semibold">
           Skills
         </span>
         <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-8 text-gray-900 dark:text-white">

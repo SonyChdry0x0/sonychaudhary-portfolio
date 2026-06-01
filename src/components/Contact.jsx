@@ -74,7 +74,7 @@ export default function Contact() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <span className="text-orange-500 uppercase tracking-widest text-xs font-semibold">
+        <span className="text-blue-500 uppercase tracking-widest text-xl font-semibold">
           Contact
         </span>
         <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900 dark:text-white">
@@ -110,8 +110,8 @@ export default function Contact() {
                     rounded-xl
                     border border-gray-100 dark:border-gray-800
                     bg-gray-50 dark:bg-gray-900
-                    hover:border-orange-200 dark:hover:border-orange-500/30
-                    hover:bg-orange-50/50 dark:hover:bg-orange-500/5
+                    hover:border-blue-200 dark:hover:border-blue-500/30
+                    hover:bg-blue-50/50 dark:hover:bg-blue-500/5
                     transition-colors duration-200
                     group
                   "
@@ -122,8 +122,8 @@ export default function Contact() {
                     bg-white dark:bg-gray-800
                     border border-gray-200 dark:border-gray-700
                     text-gray-500 dark:text-gray-400
-                    group-hover:text-orange-500 group-hover:border-orange-200
-                    dark:group-hover:text-orange-400 dark:group-hover:border-orange-500/40
+                    group-hover:text-blue-500 group-hover:border-blue-200
+                    dark:group-hover:text-blue-400 dark:group-hover:border-blue-500/40
                     transition-colors duration-200
                   ">
                     {item.icon}
@@ -184,7 +184,7 @@ export default function Contact() {
                       text-gray-900 dark:text-white
                       placeholder-gray-400 dark:placeholder-gray-600
                       outline-none
-                      focus:ring-2 focus:ring-orange-400 focus:border-transparent
+                      focus:ring-2 focus:ring-blue-400 focus:border-transparent
                       transition duration-200
                     "
                   />
@@ -206,7 +206,7 @@ export default function Contact() {
                       text-gray-900 dark:text-white
                       placeholder-gray-400 dark:placeholder-gray-600
                       outline-none
-                      focus:ring-2 focus:ring-orange-400 focus:border-transparent
+                      focus:ring-2 focus:ring-blue-400 focus:border-transparent
                       transition duration-200
                     "
                   />
@@ -230,7 +230,7 @@ export default function Contact() {
                     text-gray-900 dark:text-white
                     placeholder-gray-400 dark:placeholder-gray-600
                     outline-none resize-none
-                    focus:ring-2 focus:ring-orange-400 focus:border-transparent
+                    focus:ring-2 focus:ring-blue-400 focus:border-transparent
                     transition duration-200
                   "
                 />
@@ -250,7 +250,7 @@ export default function Contact() {
                       ? "bg-emerald-500 text-white"
                       : status === "error"
                       ? "bg-red-500 text-white"
-                      : "bg-orange-500 hover:bg-orange-600 text-white"
+                      : "bg-blue-500 hover:bg-blue-600 text-white"
                   }
                   disabled:opacity-60 disabled:cursor-not-allowed
                 `}

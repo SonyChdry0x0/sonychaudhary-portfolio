@@ -36,12 +36,12 @@ export default function Footer() {
 
          
           <div>
-            <p className="text-xs uppercase tracking-widest text-orange-500 font-semibold mb-3">
+            <p className="text-xs uppercase tracking-widest text-blue-500 font-semibold mb-3">
               Available for work
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
               Sony{" "}
-              <span className="text-orange-500">Chaudhary</span>
+              <span className="text-blue-500">Chaudhary</span>
             </h2>
             <p className="text-gray-400 dark:text-gray-500 text-sm mt-2">
               Frontend Developer 
@@ -55,7 +55,7 @@ export default function Footer() {
             whileTap={{ scale: 0.97 }}
             className="
               inline-flex items-center gap-2
-              bg-orange-500 hover:bg-orange-600
+              bg-blue-500 hover:bg-blue-600
               text-white text-sm font-semibold
               px-6 py-3 rounded-xl
               transition-colors duration-200
@@ -76,7 +76,7 @@ export default function Footer() {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-sm text-gray-500 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-200 font-medium"
+                className="text-sm text-gray-500 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-200 font-medium"
               >
                 {link.label}
               </a>
@@ -99,8 +99,8 @@ export default function Footer() {
                   flex items-center justify-center
                   border border-gray-200 dark:border-gray-700
                   text-gray-500 dark:text-gray-400
-                  hover:text-orange-500 hover:border-orange-300
-                  dark:hover:text-orange-400 dark:hover:border-orange-500/40
+                  hover:text-blue-500 hover:border-blue-300
+                  dark:hover:text-blue-400 dark:hover:border-blue-500/40
                   transition-colors duration-200
                 "
               >

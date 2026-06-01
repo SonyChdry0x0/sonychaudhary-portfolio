@@ -60,7 +60,7 @@ export default function Projects() {
       className="py-24 px-6 md:px-16 bg-white dark:bg-gray-950"
     >
       <div className="max-w-6xl mx-auto">
-        <span className="text-orange-500 uppercase tracking-widest text-xs font-semibold">
+        <span className="text-blue-500 uppercase tracking-widest text-xl font-semibold">
           Projects
         </span>
         <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-gray-900 dark:text-white">
@@ -103,7 +103,7 @@ export default function Projects() {
 
                 <div className="w-full md:w-1/2 flex flex-col gap-5">
                   {/* Tag */}
-                  <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">
+                  <span className="text-xs font-semibold uppercase tracking-widest text-blue-500">
                     {project.tag}
                   </span>
 
@@ -111,7 +111,7 @@ export default function Projects() {
                     {project.title}
                   </h3>
 
-                  <div className="w-10 h-0.5 bg-orange-400 rounded-full" />
+                  <div className="w-10 h-0.5 bg-blue-400 rounded-full" />
 
                   <p className="text-gray-500 dark:text-gray-400 leading-relaxed text-sm md:text-base">
                     {project.description}
@@ -134,7 +134,7 @@ export default function Projects() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-200"
+                        className="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-200"
                       >
                         <FaGithub size={16} />
                         View Code
@@ -145,7 +145,7 @@ export default function Projects() {
                         href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-lg bg-orange-500 hover:bg-orange-600 text-white transition-colors duration-200"
+                        className="flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 text-white transition-colors duration-200"
                       >
                         Live Demo
                         <FaExternalLinkAlt size={11} />
