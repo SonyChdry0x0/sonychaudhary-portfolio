@@ -1,12 +1,17 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
+import portfolioImg from "../assets/Portfolios.png";
+import trendImg from "../assets/trend.png";
+import faceImg from "../assets/facerecognition.png";
+import smsImg from "../assets/sms.png";
+import { image } from "framer-motion/client";
 
 const projects = [
   {
     title: "Portfolio Website",
     description:
       "A fully responsive portfolio built with React and Tailwind CSS featuring dark mode, animations, and smooth scrolling.",
-    image: "src/assets/Portfolios.png",
+    image:portfolioImg,
     tech: ["React", "Tailwind", "Vite"],
     github: "#",
     live: "#",
@@ -17,8 +22,8 @@ const projects = [
     title: "TrendMorph",
     description:
       "AI-powered content generation platform that analyzes real-time trends from YouTube, Reddit, Pinterest, and X to generate captions, hashtags, blogs, AI images, and voice-overs using SDXL, BLIP, T5, Whisper, and LangChain.",
-    image: "src/assets/trend.png",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Python"],
+    image:trendImg,
+      tech: ["React", "Node.js", "Express", "MongoDB", "Python"],
     github: "",
     live: "https://trendmorphai.rajeshpandey10.com.np",
     tag: "AI · Full Stack",
@@ -28,7 +33,7 @@ const projects = [
     title: "Smart Face Attendance",
     description:
       "Deep learning system that automatically detects students and records attendance in real time via webcam-based face recognition — improving accuracy and eliminating manual overhead.",
-    image: "src/assets/facerecognition.png",
+     image:faceImg,
     tech: ["HTML", "JavaScript", "CSS", "Python"],
     github: "https://github.com/SonyChdry0x0/Smart-face-attendance-system",
     live: "",
@@ -39,7 +44,7 @@ const projects = [
     title: "Student Management System",
     description:
       "Streamlines student records, attendance tracking, and report generation with course-wise monitoring and exportable reports — reducing administrative workload significantly.",
-    image: "src/assets/sms.png",
+     image:smsImg,
     tech: ["HTML", "JavaScript", "CSS", "PHP", "MySQL"],
     github: "https://github.com/SonyChdry0x0/student-management-system",
     live: "",
