@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
-
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -120,9 +119,10 @@ export default function Nav() {
           >
             {darkMode ? <FaSun size={14} /> : <FaMoon size={14} />}
           </button>
-
-          <a href="/sonychaudharycv.pdf" target="_blank" rel="noopener noreferrer"
-            download
+          <a
+            href="/sonychaudharycv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:block px-5 py-2 rounded-full bg-blue-600 text-white text-sm font-medium hover:opacity-90 transition shadow-sm"
           >
             Resume
@@ -134,9 +134,15 @@ export default function Nav() {
             className="md:hidden flex flex-col gap-1.5 p-1"
             aria-label="Toggle menu"
           >
-            <span className={`w-5 h-0.5 bg-gray-700 dark:bg-white transition-transform duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
-            <span className={`w-5 h-0.5 bg-gray-700 dark:bg-white transition-opacity duration-300 ${menuOpen ? "opacity-0" : ""}`} />
-            <span className={`w-5 h-0.5 bg-gray-700 dark:bg-white transition-transform duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+            <span
+              className={`w-5 h-0.5 bg-gray-700 dark:bg-white transition-transform duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`}
+            />
+            <span
+              className={`w-5 h-0.5 bg-gray-700 dark:bg-white transition-opacity duration-300 ${menuOpen ? "opacity-0" : ""}`}
+            />
+            <span
+              className={`w-5 h-0.5 bg-gray-700 dark:bg-white transition-transform duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}
+            />
           </button>
         </div>
       </motion.nav>
@@ -170,8 +176,9 @@ export default function Nav() {
             <div className="border-t border-gray-100 dark:border-slate-700 pt-3 mt-1">
               <a
                 href="/sonychaudharycv.pdf"
-                download
-                className="block text-center px-5 py-2 rounded-full bg-blue-600 text-white text-sm font-medium hover:opacity-90 transition"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden md:block px-5 py-2 rounded-full bg-blue-600 text-white text-sm font-medium hover:opacity-90 transition shadow-sm"
               >
                 Resume
               </a>

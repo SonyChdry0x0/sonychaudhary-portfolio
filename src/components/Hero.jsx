@@ -109,15 +109,15 @@ export default function Hero() {
           >
             View Projects <FaArrowRight size={12} />
           </motion.button>
-
-          <a
-  href="sonychaudharycv.pdf"
-  download="SonyChaudharyCV.pdf"
+<a
+          href="/sonychaudharycv.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
   className="flex items-center gap-2 border border-gray-200 dark:border-gray-700 px-6 py-3 rounded-xl text-gray-700 dark:text-gray-300 hover:text-blue-500 hover:border-blue-400"
 >
-            <FaDownload size={12} />
-            Download CV
-          </a>
+  <FaDownload size={12} />
+  Download CV
+</a>
         </div>
 
         {/* SOCIAL */}
