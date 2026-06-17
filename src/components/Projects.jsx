@@ -1,6 +1,6 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
-import portfolioImg from "../assets/Portfolios.png";
+import ecommerceImg from "../assets/ecommerce.png";
 import trendImg from "../assets/trend.png";
 import faceImg from "../assets/facerecognition.png";
 import smsImg from "../assets/sms.png";
@@ -8,13 +8,13 @@ import { image } from "framer-motion/client";
 
 const projects = [
   {
-    title: "Portfolio Website",
+    title: "E-Commerce Website",
     description:
-      "A fully responsive portfolio built with React and Tailwind CSS featuring dark mode, animations, and smooth scrolling.",
-    image:portfolioImg,
-    tech: ["React", "Tailwind", "Vite"],
-    github: "#",
-    live: "#",
+      "A full-stack, responsive e-commerce web app featuring responsive design, dynamic product management, and a seamless checkout flow.",
+    image:ecommerceImg,
+    tech: ["Mangodb", "Express","React", "Node"],
+    github: "https://github.com/SonyChdry0x0/E-Commerce",
+    live: "https://e-commerce-one-rho-74.vercel.app/",
     tag: "Design",
     number: "01",
   },
@@ -91,7 +91,7 @@ export default function Projects() {
                 } items-center gap-12 md:gap-16`}
               >
                 <div className="w-full md:w-1/2 group">
-                  <div className="relative overflow-hidden rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm">
+                  <div className="relative overflow-hidden shadow-sm">
                     <span className="absolute top-4 left-4 z-10 text-xs font-bold tracking-widest text-white/70 bg-black/30 backdrop-blur-sm px-2.5 py-1 rounded-full">
                       {project.number}
                     </span>
@@ -99,7 +99,7 @@ export default function Projects() {
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-64 md:h-80 object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                      className="w-full h-64 md:h-80 object-contain object-top transition-transform duration-700 group-hover:scale-105"
                     />
 
                     <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/30 to-transparent" />

@@ -51,7 +51,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-10 bg-white dark:bg-slate-950 gap-12 overflow-hidden"
+      className="relative min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-36 py-5 bg-white dark:bg-slate-950 gap-48 overflow-hidden"
       id="hero"
     >
       <div
@@ -81,7 +81,7 @@ export default function Hero() {
           <span className="animate-pulse">|</span>
         </div>
 
-        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight mb-5">
+        <h1 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white leading-tight mb-5">
           Turning ideas into <span className="text-blue-600">modern</span>
           <br />
           web experiences
