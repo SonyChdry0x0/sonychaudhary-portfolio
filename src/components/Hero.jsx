@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import profile from "../assets/self2.png";
 
-const words = ["Frontend Developer", "Freelancer"];
+const words = ["Full Stack Developer", "Freelancer"];
 
 const stats = [
   { value: "10+", label: "Projects Built" },
