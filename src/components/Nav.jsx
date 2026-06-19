@@ -120,7 +120,7 @@ export default function Nav() {
             {darkMode ? <FaSun size={14} /> : <FaMoon size={14} />}
           </button>
           <a
-            href="/sonychaudharycv.pdf"
+            href="/sonykumarichaudharycv.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block px-5 py-2 rounded-full bg-blue-600 text-white text-sm font-medium hover:opacity-90 transition shadow-sm"
