@@ -30,6 +30,17 @@ const projects = [
     number: "02",
   },
   {
+    title: "Movie Search System",
+    description:
+      "A movie search application that allows users to search for movies and view details such as ratings, genres, release dates, and descriptions.",
+    image:ecommerceImg,
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/SonyChdry0x0/movie_search",
+    live: "",
+    tag: "Frontend design",
+    number: "03",
+  },
+  {
     title: "Smart Face Attendance",
     description:
       "Deep learning system that automatically detects students and records attendance in real time via webcam-based face recognition — improving accuracy and eliminating manual overhead.",
@@ -38,7 +49,7 @@ const projects = [
     github: "https://github.com/SonyChdry0x0/Smart-face-attendance-system",
     live: "",
     tag: "ML · Computer Vision",
-    number: "03",
+    number: "04",
   },
   {
     title: "Student Management System",
@@ -49,7 +60,7 @@ const projects = [
     github: "https://github.com/SonyChdry0x0/student-management-system",
     live: "",
     tag: "Web App",
-    number: "04",
+    number: "05",
   },
 ];
 
