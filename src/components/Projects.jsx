@@ -4,6 +4,7 @@ import ecommerceImg from "../assets/ecommerce.png";
 import trendImg from "../assets/trend.png";
 import faceImg from "../assets/facerecognition.png";
 import smsImg from "../assets/sms.png";
+import moviesearchimg from "../assets/moviesearchimg.png"
 import { image } from "framer-motion/client";
 
 const projects = [
@@ -33,7 +34,7 @@ const projects = [
     title: "Movie Search System",
     description:
       "A movie search application that allows users to search for movies and view details such as ratings, genres, release dates, and descriptions.",
-    image:ecommerceImg,
+    image:moviesearchimg,
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/SonyChdry0x0/movie_search",
     live: "",
