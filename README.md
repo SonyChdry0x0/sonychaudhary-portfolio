@@ -1,24 +1,65 @@
-# Sony Chaudhary — Portfolio
+# 🎬 Movie & K-Drama Search System
 
-Personal portfolio website built with React, Vite, and Tailwind CSS.
+A responsive web application that allows users to search and explore movies and K-Dramas in one place. Users can discover detailed information about their favorite movies and dramas, watch trailers, and explore the actors and cast members involved.
 
-## 🔗 Live Site
-[yourname.vercel.app](https://yourname.vercel.app)
+## 🚀 Features
 
-## 🛠️ Built With
-- React
-- Vite
+- 🔍 Search for movies and K-Dramas
+- 🎬 Watch trailers
+- ⭐ View ratings
+- 📅 View release dates
+- 🎞️ View movie and drama posters
+- 👥 Explore actors and cast members
+- 📖 View detailed information about movies and dramas
+- 📱 Responsive design
+- ⚡ Fast and user-friendly interface
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
 - Tailwind CSS
-- Framer Motion
+- Vite
+- TMDB API
 
-## 🚀 Run Locally
-```
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SonyChdry0x0/movie_search.git
+
+
+2. Go to the project folder
+cd movie_search
+3. Install dependencies
 npm install
+4. Start the development server
 npm run dev
-```
-
-## 📬 Contact
-- LinkedIn:https://www.linkedin.com/in/sony-kumari-chaudhary-000b35314/
-- Email: chaudharysony336@gmail.com
+Open the local URL shown in your terminal.
+🔑 API Configuration
+This project uses the TMDB API to get movie and TV show information.
+Create a .env file in the root folder:
+VITE_TMDB_API_KEY=your_api_key_here
+Replace your_api_key_here with your own TMDB API key.
+⚠️ Do not upload your .env file or API key to GitHub.
+🎯 Project Purpose
+This project was developed to practice and improve my skills in:
+React.js
+API integration
+Component-based development
+State management
+Responsive web design
+Working with external APIs
+Building user-friendly interfaces
+✨ What Users Can Do
+Users can:
+Search for their favorite movies and K-Dramas
+Explore movie and drama details
+Watch trailers
+Check ratings
+Check release dates
+Discover actors and cast members
+Browse different movies and TV shows
