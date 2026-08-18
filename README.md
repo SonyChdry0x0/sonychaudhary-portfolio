@@ -90,11 +90,11 @@ I enjoy developing practical solutions, working with frontend and backend techno
 
 📍 **Location:** Kathmandu, Nepal
 
-💼 **LinkedIn:** [Add your LinkedIn profile link]
+💼 **LinkedIn:** [https://www.linkedin.com/in/sony-kumari-chaudhary-000b35314/]
 
-🐙 **GitHub:** [Add your GitHub profile link]
+🐙 **GitHub:** [https://github.com/SonyChdry0x0]
 
-🌐 **Portfolio:** [Add your portfolio link]
+🌐 **Portfolio:** [https://www.sonykumarichaudhary.com.np]
 
 ## ⭐ Support
 
