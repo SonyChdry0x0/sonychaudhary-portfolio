@@ -1,65 +1,101 @@
-# 🎬 Movie & K-Drama Search System
+# 🌐 Personal Portfolio
 
-A responsive web application that allows users to search and explore movies and K-Dramas in one place. Users can discover detailed information about their favorite movies and dramas, watch trailers, and explore the actors and cast members involved.
+A modern and responsive personal portfolio website built with **React.js** and **Tailwind CSS**. It showcases my skills, education, experience, and projects as a Full-Stack Developer.
+
+## 🔗 Live Demo
+
+🌐 **Portfolio:** [https://www.sonykumarichaudhary.com.np]
 
 ## 🚀 Features
 
-- 🔍 Search for movies and K-Dramas
-- 🎬 Watch trailers
-- ⭐ View ratings
-- 📅 View release dates
-- 🎞️ View movie and drama posters
-- 👥 Explore actors and cast members
-- 📖 View detailed information about movies and dramas
-- 📱 Responsive design
-- ⚡ Fast and user-friendly interface
+* 🏠 Home section with personal introduction
+* 👩‍💻 About Me section
+* 🛠️ Skills and technologies
+* 💼 Projects showcase
+* 📚 Education and experience
+* 📩 Contact section
+* 📱 Fully responsive design
+* ✨ Modern UI with smooth animations
 
 ## 🛠️ Technologies Used
 
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-- Tailwind CSS
-- Vite
-- TMDB API
+* **Frontend:** React.js, Next.js, TypeScript, Tailwind CSS, Redux Toolkit
+* **Backend:** Node.js, Express.js, REST APIs
+* **Databases:** MongoDB, PostgreSQL, MySQL, SQLite
+* **Languages:** JavaScript, Python, C, C++
+* **Tools:** Git, GitHub, Docker, AWS, Postman, VS Code
+* **AI & APIs:** Hugging Face, Stable Diffusion XL, TMDB API
 
-## 📦 Installation
+## 📸 Featured Projects
 
-### 1. Clone the repository
+### 🛍️ E-Commerce Website
 
-```bash
-git clone https://github.com/SonyChdry0x0/movie_search.git
+A full-stack e-commerce web application built with **React.js, Node.js, Express.js, MongoDB, Redux Toolkit, and JWT**.
 
+* Product search and filtering
+* Shopping cart management
+* JWT-based authentication
+* Admin dashboard for product and user management
+* REST API integration
+* Responsive user interface
 
-2. Go to the project folder
-cd movie_search
-3. Install dependencies
-npm install
-4. Start the development server
-npm run dev
-Open the local URL shown in your terminal.
-🔑 API Configuration
-This project uses the TMDB API to get movie and TV show information.
-Create a .env file in the root folder:
-VITE_TMDB_API_KEY=your_api_key_here
-Replace your_api_key_here with your own TMDB API key.
-⚠️ Do not upload your .env file or API key to GitHub.
-🎯 Project Purpose
-This project was developed to practice and improve my skills in:
-React.js
-API integration
-Component-based development
-State management
-Responsive web design
-Working with external APIs
-Building user-friendly interfaces
-✨ What Users Can Do
-Users can:
-Search for their favorite movies and K-Dramas
-Explore movie and drama details
-Watch trailers
-Check ratings
-Check release dates
-Discover actors and cast members
-Browse different movies and TV shows
+### 🎬 Movie Search
+
+A movie and TV discovery application built with **Next.js, TypeScript, Tailwind CSS, and TMDB API**.
+
+* Movie and TV show search
+* Live search functionality
+* Multi-category browsing
+* Persistent favorites
+* Responsive interface
+* Animated interactions
+
+### 🤖 TrendMorph
+
+An AI-powered final-year project developed using **React.js, Next.js, and TypeScript**.
+
+* Integrated trending data from YouTube, Reddit, and X (Twitter)
+* Integrated **Stable Diffusion XL (SDXL)** through Hugging Face
+* Generated AI-powered visuals from user prompts
+* Built responsive and interactive web interfaces
+
+### 📸 Smart Face Attendance System
+
+A smart attendance management system built with **Django, Python, OpenCV, HTML, CSS, JavaScript, and SQLite**.
+
+* Real-time face recognition
+* Automated attendance tracking
+* Attendance reporting
+* Reduced proxy attendance through facial recognition
+
+### 🎓 Student Management System
+
+A student management application designed to manage and organize student information efficiently.
+
+* Student information management
+* Add, update, delete, and view student records
+* Organized student data
+* User-friendly interface
+* Database integration
+
+## 👩‍💻 About Me
+
+I am a **Full-Stack Developer** with hands-on experience building responsive and user-friendly web applications using **React.js, Next.js, Node.js, Express.js, and MongoDB**.
+
+I enjoy developing practical solutions, working with frontend and backend technologies, integrating APIs, and solving real-world problems.
+
+## 📬 Contact
+
+📧 **Email:** [chaudharysony336@gmail.com](mailto:chaudharysony336@gmail.com)
+
+📍 **Location:** Kathmandu, Nepal
+
+💼 **LinkedIn:** [Add your LinkedIn profile link]
+
+🐙 **GitHub:** [Add your GitHub profile link]
+
+🌐 **Portfolio:** [Add your portfolio link]
+
+## ⭐ Support
+
+If you like this project, consider giving the repository a ⭐ on GitHub.
